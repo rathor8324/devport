@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-charcoal text-gray-200 font-sans antialiased;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Selection */
+::selection {
+  @apply bg-accent/30 text-white;
+}
+
+/* Code-block style dividers */
+.divider-code {
+  @apply font-mono text-xs text-gray-500 border border-border rounded px-3 py-2 bg-surface/80;
+}
