@@ -9,7 +9,7 @@ const items = [
   {
     icon: Bug,
     title: 'Bug tracking & defect reporting',
-    desc: 'Log defects with clear steps, severity, and reproducibility.',
+    desc: 'Log and verify defects in Jira and FireFlink with clear reproducible evidence.',
   },
   {
     icon: Database,
@@ -19,7 +19,7 @@ const items = [
   {
     icon: Accessibility,
     title: 'Accessibility testing (WCAG)',
-    desc: 'Ensure digital products meet WCAG 2.1 AA standards.',
+    desc: 'Validate products against WCAG 2.0 and 2.1 success criteria (A and AA).',
   },
   {
     icon: FileCheck,

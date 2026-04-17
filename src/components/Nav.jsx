@@ -20,7 +20,7 @@ export default function Nav() {
         </span>
         <span className="text-gray-600">portfolio.tsx — Dev Ratna Saxena</span>
         <span className="ml-auto flex items-center gap-2">
-          <span className="px-2 py-0.5 rounded bg-accent/20 text-accent text-[10px]">WCAG 2.1 AA</span>
+          <span className="px-2 py-0.5 rounded bg-accent/20 text-accent text-[10px]">WCAG 2.0/2.1 A-AA</span>
           <span className="px-2 py-0.5 rounded bg-accent-blue/20 text-accent-blue text-[10px]">Tested</span>
         </span>
       </div>
