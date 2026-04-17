@@ -1,7 +1,7 @@
 import { Download, Linkedin, Mail, MapPin, CheckCircle2 } from 'lucide-react'
 
-const resumeUrl = '/resume.pdf'
-const profileImageUrl = '/profile-photo.png'
+const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`
+const profileImageUrl = `${import.meta.env.BASE_URL}profile-photo.png`
 
 export default function Hero() {
   return (
